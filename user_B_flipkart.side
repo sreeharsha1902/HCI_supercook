@@ -1,0 +1,134 @@
+{
+  "id": "c664138d-4d64-49e7-8cd9-c914cf3d7135",
+  "version": "2.0",
+  "name": "user_B_flipkart",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "4e6a2011-aeaa-4e12-9ce1-ef5f8cc47f0e",
+    "name": "flipkart_userB_noob",
+    "commands": [{
+      "id": "af139f9e-a8bf-416d-a9f3-40d55889847f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a4cfecb-2338-4613-b4df-53d9bb8e1f2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bb2d239-547f-40de-ac28-8910d0343d21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2doB4z",
+      "targets": [
+        ["css=.\\_2doB4z", "css:finder"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'✕')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fe76941-04c9-4c3d-a096-658d82d37761",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,416)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82f505a7-7904-48be-8f5f-d01770588417",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eFQ30H:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.eFQ30H:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='Mobiles']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b93fce83-a33a-4d17-958a-8ad1eb61fd99",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.\\_3SkBxJ", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/viewcart?otracker=Cart_Icon_Click')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7630cd8-aab2-48ff-b3d7-0f5573feb3d8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8024.7998046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3076be7-a8b6-446a-a4e3-206c42b57530",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mi",
+      "targets": [
+        ["linkText=Mi", "linkText"],
+        ["css=.\\_1fwVde:nth-child(1) > .\\_3QN6WI:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mi')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobiles/mi~brand/pr?sid=tyy,4io&otracker=nmenu_sub_Electronics_0_Mi')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d791e069-d6ed-41f0-8726-cd7f2ad186a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(24) .\\_4rR01T",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(24) .\\_4rR01T", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[24]/div/div/div/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[24]/div/div/div/a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3766",
+      "windowTimeout": 2000
+    }, {
+      "id": "2c45ddff-eaa5-40c3-9eb2-3d5746281e44",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3766}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03862557-6e12-4084-810c-d9479e470e2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "44202763-5385-42e5-9f9b-075f8513e3b4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4e6a2011-aeaa-4e12-9ce1-ef5f8cc47f0e"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}

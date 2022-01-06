@@ -1,0 +1,294 @@
+{
+  "id": "6d69cd5f-106f-454a-a3f8-957fad451656",
+  "version": "2.0",
+  "name": "hci_part_b",
+  "url": "https://www.snapdeal.com",
+  "tests": [{
+    "id": "600e7123-bc30-4360-aa06-e43040795cf0",
+    "name": "dummy_snapdeal",
+    "commands": [{
+      "id": "505df472-82bb-4985-aa69-bec08f05a964",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87b7232e-fe48-48c5-8b90-a66d76cda264",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c774e480-4061-4a90-8a22-9fd7e75a3c9c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.notIeLogoHeader > .notIeLogoHeader",
+      "targets": [
+        ["css=.notIeLogoHeader > .notIeLogoHeader", "css:finder"],
+        ["xpath=//img[@title='Snapdeal']", "xpath:img"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbe27281-b360-4ef3-ba0d-32e75b7bbb96",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.notIeLogoHeader > .notIeLogoHeader",
+      "targets": [
+        ["css=.notIeLogoHeader > .notIeLogoHeader", "css:finder"],
+        ["xpath=//img[@title='Snapdeal']", "xpath:img"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa838eac-8280-4102-8ec0-86382aed5252",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hoverIn .catText",
+      "targets": [
+        ["css=.hoverIn .catText", "css:finder"],
+        ["xpath=//div[@id='leftNavMenuRevamp']/div/div[2]/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Mobile & Tablets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "573771a6-8194-42d7-a253-d55e0e2bac74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hoverIn .catText",
+      "targets": [
+        ["css=.hoverIn .catText", "css:finder"],
+        ["xpath=//div[@id='leftNavMenuRevamp']/div/div[2]/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Mobile & Tablets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e4c560-b04d-497e-8b06-77f0a264db02",
+      "comment": "",
+      "command": "click",
+      "target": "css=#category2Data > .rightData p:nth-child(4) .linkTest",
+      "targets": [
+        ["css=#category2Data > .rightData p:nth-child(4) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div[3]/div/div/p[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[3]/div/div/p[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Samsung Galaxy J6+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d24eec15-2392-42f3-9c43-fa231774caea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9570c8f-464c-42f7-9766-afc77101b747",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.notIeLogoHeader > .notIeLogoHeader",
+      "targets": [
+        ["css=.notIeLogoHeader > .notIeLogoHeader", "css:finder"],
+        ["xpath=//img[@title='Snapdeal']", "xpath:img"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e7970cf-6323-4f5a-b7b3-962a84430b8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#category2Data > .leftData p:nth-child(20) .linkTest",
+      "targets": [
+        ["css=#category2Data > .leftData p:nth-child(20) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[20]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/p[20]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Samsung')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fca9e05c-6619-4068-9ab0-d218458f0ff3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.notIeLogoHeader > .notIeLogoHeader",
+      "targets": [
+        ["css=.notIeLogoHeader > .notIeLogoHeader", "css:finder"],
+        ["xpath=//img[@title='Snapdeal']", "xpath:img"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c557ec-0b59-4e10-8f1a-73811bcfb4fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#category1Data > .rightData p:nth-child(8) .linkTest",
+      "targets": [
+        ["css=#category1Data > .rightData p:nth-child(8) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category1Data']/div[3]/div/div/p[8]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/p[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pepe Jeans')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "100edba5-f3b4-4a0c-9cde-831a41a9ac93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#category1Data > .rightData p:nth-child(8) .linkTest",
+      "targets": [
+        ["css=#category1Data > .rightData p:nth-child(8) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category1Data']/div[3]/div/div/p[8]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/p[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pepe Jeans')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ddaeecd-1226-4484-8dc5-da86b44a6990",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hoverIn",
+      "targets": [
+        ["css=.hoverIn", "css:finder"],
+        ["xpath=//div[@id='leftNavMenuRevamp']/div/div[2]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adb2dcc0-8cc4-4301-aff6-e4f0dc3db8f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#category2Data > .leftData p:nth-child(2) .linkTest",
+      "targets": [
+        ["css=#category2Data > .leftData p:nth-child(2) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f28208c-067b-4cd8-b8fb-f37d5366c904",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#category2Data > .leftData p:nth-child(2) .linkTest",
+      "targets": [
+        ["css=#category2Data > .leftData p:nth-child(2) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46ce8b2c-0f20-4c68-a404-8461014d3347",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Smartphones",
+      "targets": [
+        ["linkText=Smartphones", "linkText"],
+        ["css=#category2Data > .leftData p:nth-child(2) > .rightMenuLink", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.snapdeal.com/products/mobiles-mobile-phones/filters/Form_s~Smartphones')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70618b71-1632-40a7-8d27-5cb609ba32bd",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Smartphones",
+      "targets": [
+        ["linkText=Smartphones", "linkText"],
+        ["css=#category2Data > .leftData p:nth-child(2) > .rightMenuLink", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.snapdeal.com/products/mobiles-mobile-phones/filters/Form_s~Smartphones')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f3e6e4-0da9-4af2-acf8-932b6d6279d8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Smartphones",
+      "targets": [
+        ["linkText=Smartphones", "linkText"],
+        ["css=#category2Data > .leftData p:nth-child(2) > .rightMenuLink", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.snapdeal.com/products/mobiles-mobile-phones/filters/Form_s~Smartphones')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "044e277b-d622-4598-bc17-7a81c9ce8130",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#category2Data > .leftData p:nth-child(2) .linkTest",
+      "targets": [
+        ["css=#category2Data > .leftData p:nth-child(2) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85adeedd-b841-4f22-a60b-207db67d1e0a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#category2Data > .leftData p:nth-child(2) .linkTest",
+      "targets": [
+        ["css=#category2Data > .leftData p:nth-child(2) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7721fd0-e1c9-4c33-86fa-421339e85245",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#category2Data > .leftData p:nth-child(2) .linkTest",
+      "targets": [
+        ["css=#category2Data > .leftData p:nth-child(2) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category2Data']/div/div/div/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/p[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee6aa265-2dd6-4697-b7e2-79b44cb20a45",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79.19999694824219)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31774891-3a8d-42bd-848e-6903b6fefcc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\38 070451152245613611 .product-image:nth-child(2)",
+      "targets": [
+        ["css=#\\38 070451152245613611 .product-image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@title='Redmi Note 9 ( 128GB , 4 GB ) White']", "xpath:img"],
+        ["xpath=//div[@id='8070451152245613611']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "35826ebb-b113-4718-bd8b-3a76b7e7a846",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["600e7123-bc30-4360-aa06-e43040795cf0"]
+  }],
+  "urls": ["https://www.snapdeal.com/"],
+  "plugins": []
+}

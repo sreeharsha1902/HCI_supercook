@@ -1,0 +1,153 @@
+{
+  "id": "96a68a82-01dc-4f28-bd88-cc85999a461e",
+  "version": "2.0",
+  "name": "hci",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "899a9fe3-6dd9-41ff-85a4-e5494f76996c",
+    "name": "flipkart_expert",
+    "commands": [{
+      "id": "73c21177-9038-4393-b682-0a49301f3801",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4a9d9b5-bc47-4b5b-b753-9b932fd81ff0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "863c4b2e-a4f1-47bd-8dab-20f1d56eae5b",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d9ef5de-f673-4dbb-82e8-92b669b6901d",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "redmi note 9 white"
+    }, {
+      "id": "a89df30d-b66a-4a0b-a88e-ba8ce6790e1c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "725a26a2-6622-4b39-bd92-c81972d3ce24",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) .gUuXy-",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) .gUuXy-", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c4aa14c-6764-475d-91d7-a1e64d078473",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(3) .col:nth-child(2)",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(3) .col:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[3]/div/div/div/a/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/a/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win937",
+      "windowTimeout": 2000
+    }, {
+      "id": "84efb85e-e314-425c-b93c-8e2284469759",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fe16f04-540d-46f8-b50f-0b33166d1c1d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win937}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5aae0c0b-6310-4cf2-a3c9-505107628e31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0500c63c-b534-4e6b-a71f-ad4b94280928",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f73bacb-3a52-41cf-9b5d-0c831b4b0809",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f700959-9a1d-4a97-b99d-899f285178f8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "018715d4-062b-43c5-b1f5-30826732ebc8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2eab0c82-fa78-4704-a386-ea2c5c76acda",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["899a9fe3-6dd9-41ff-85a4-e5494f76996c"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}

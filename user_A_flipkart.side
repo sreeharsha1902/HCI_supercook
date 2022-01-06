@@ -1,0 +1,184 @@
+{
+  "id": "b60b7735-4c31-480e-8f96-5d28430facb9",
+  "version": "2.0",
+  "name": "user_A_flipkart",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "9028201b-5849-4433-a51f-34c49106ef93",
+    "name": "flipkart_userA_noob",
+    "commands": [{
+      "id": "c31194b7-0b0c-4ed6-9340-27f6701a198e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3962c86c-8dff-482d-af19-7a618a24cfac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e20a097b-bbe7-483a-a7d8-cbbfc4aa2ca8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.eFQ30H:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_df6caaa6-377e-4ece-96eb-1d6846455b6a_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=ZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c8b2c0f-84e6-40d2-b6e9-02430a9dfeb4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.eFQ30H:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_df6caaa6-377e-4ece-96eb-1d6846455b6a_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=ZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fb3febb-fc5e-492b-8520-4c80f2f6d763",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2WDRax",
+      "targets": [
+        ["css=.\\_2WDRax", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e07da117-e4e4-49ad-af49-31dc148e47ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mi",
+      "targets": [
+        ["linkText=Mi", "linkText"],
+        ["css=.\\_1fwVde:nth-child(1) > .\\_3QN6WI:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mi')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobiles/mi~brand/pr?sid=tyy,4io&otracker=nmenu_sub_Electronics_0_Mi')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "025bd376-c6ee-4903-b05b-58c07fbe9851",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(21) .rgWa7D:nth-child(6)",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(21) .rgWa7D:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[21]/div/div/div/a/div[2]/div/div[3]/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//div[21]/div/div/div/a/div[2]/div/div[3]/ul/li[6]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win603",
+      "windowTimeout": 2000
+    }, {
+      "id": "72a07419-0e8f-40ee-a303-9b45b11eda77",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win603}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92a58b3d-c04c-40cc-b1fc-18f9a2e05330",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c8a383d-c3a8-46a9-b606-0db7a930fdae",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2971.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a328e007-ef6f-48cd-a984-20144e577d97",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Redmi Note 9 (Arctic White, 128 GB)",
+      "targets": [
+        ["linkText=Redmi Note 9 (Arctic White, 128 GB)", "linkText"],
+        ["css=.\\_1z3UcS:nth-child(2) > .\\_3ZYowz:nth-child(1) .\\_3YgSsQ:nth-child(4) .s1Q9rs:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Redmi Note 9 (Arctic White, 128 GB)')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/div[2]/div/div/div/div/div[4]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/redmi-note-9-arctic-white-128-gb/p/itme9d4da670b8ba?pid=MOBFU3ZFPDTEAHHZ&lid=LSTMOBFU3ZFPDTEAHHZCLDTNR&marketplace=FLIPKART&fm=productRecommendation%2Fsimilar&iid=R%3As%3Bp%3AMOBFUNP3DYNG7HX2%3Bl%3ALSTMOBFUNP3DYNG7HX2VOOF20%3Bpt%3App%3Buid%3A3c19ba1b-9a8c-11eb-9284-db66285145c2%3B.MOBFU3ZFPDTEAHHZ&ppt=pp&ppn=pp&ssid=6484ljm8f40000001618121214839&otracker=pp_reco_Similar%2BProducts_4_33.productCard.PMU_HORIZONTAL_Redmi%2BNote%2B9%2B%2528Arctic%2BWhite%252C%2B128%2BGB%2529_MOBFU3ZFPDTEAHHZ_productRecommendation%2Fsimilar_3&otracker1=pp_reco_PINNED_productRecommendation%2Fsimilar_Similar%2BProducts_GRID_productCard_cc_4_NA_view-all&cid=MOBFU3ZFPDTEAHHZ')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Redmi Note 9 (Arctic White, 128 GB)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win469",
+      "windowTimeout": 2000
+    }, {
+      "id": "75b3a60b-0ad6-4da9-8a62-7c92b2e7599a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win469}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10708bf4-219f-4f4a-a47d-cf5b228beba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d2f12a-c837-45a0-a9af-44a5d244ef1a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_3v1-ww > span",
+      "targets": [
+        ["css=.\\_3v1-ww > span", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9962c64f-8b7d-4af6-ad83-d631f466c241",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_6t1WkM > .\\_1YokD2",
+      "targets": [
+        ["css=.\\_6t1WkM > .\\_1YokD2", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8947311c-b254-4064-bd18-0a92649ff3da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9028201b-5849-4433-a51f-34c49106ef93"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}

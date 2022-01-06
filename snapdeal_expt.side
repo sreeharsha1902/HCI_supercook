@@ -1,0 +1,89 @@
+{
+  "id": "7e6ad4fd-adfb-4e34-b15f-952ec3b22294",
+  "version": "2.0",
+  "name": "hci_part_b_snapdeal_expt",
+  "url": "https://www.snapdeal.com",
+  "tests": [{
+    "id": "a6ce713f-c4f9-4948-bdab-198676a7b145",
+    "name": "snapdeal_expert",
+    "commands": [{
+      "id": "c7d8dae9-ff4f-4d5d-b6e5-6c96bb62451a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "460503a2-a552-442b-b33f-85126f503f59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22a4bcdd-ce6f-48df-a930-c4518393ba49",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9414e584-025b-4185-8927-94fe1f738328",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "redmi note 9"
+    }, {
+      "id": "340ea48b-0577-4961-b615-924edb5326ed",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "56b7a8ea-b46c-4154-981d-febfd552f8a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\38 070451152245613611 .product-image:nth-child(2)",
+      "targets": [
+        ["css=#\\38 070451152245613611 .product-image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@title='Redmi Note 9 ( 128GB , 4 GB ) White']", "xpath:img"],
+        ["xpath=//div[@id='8070451152245613611']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3e3aa025-d83f-4bc6-a122-598ba9fd4078",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a6ce713f-c4f9-4948-bdab-198676a7b145"]
+  }],
+  "urls": ["https://www.snapdeal.com/"],
+  "plugins": []
+}
